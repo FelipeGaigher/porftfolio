@@ -17,3 +17,10 @@ O controle das tarefas desse projeto será realizad no GitHub
 
 - :smile: Colocando esse site a minha cara
 
+## Projetos
+
+- :book: Parte de projetos feito, adaptar depois
+
+## Sites
+
+- :web: https://figma.com / https://miro.com/login/

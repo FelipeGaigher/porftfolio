@@ -9,11 +9,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
     <title>Portfólio Felipe Pereira Gaigher</title>
 </head>
-<body>
-    <div class="container">
 
+<body>
+    <div class="container"> 
+       
         <!--div.iconburguer>div.line*3-->
         <div class="iconburguer">
             <div class="line" id="line1"></div>
@@ -23,15 +25,23 @@
         </div>
 
         <header>
-            <div class="img wrapper">
-                <img src="imagens/altumcode-dMUt0X3f59Q-unsplash.jpg" alt=""> 
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            
+            <div class="img wrapper">
+                <img src="imagens/felipeverde.jpg" alt="Felipe Pereira Gaigher"> 
+            </div>
             <div class="banner">
-                <p>Desenvolvedor é ser <span class="typed-text"></span><span class="cursor">&nbsp;</span>
-
-                <p class="myName">Felipe P Gaigher</p>
-                <button>Saiba mais</button>
+                <p>Bem vindo
+                    <br>FPG
+                    <br>
+                <h1><span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                <p class="myName"></p></p></h1>
+                <!--<button>Saiba mais</button>-->
+                
             </div>
         </header>
 
@@ -45,93 +55,127 @@
                     <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
                 </ul>
             </nav>
-
-            <div class="social-media">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
         </aside>
 
-
         <!--section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p{lorem30})*6-->
-        
         <section class="sessao-conhecimentos">
-            <div class="sessao-header">
-                <h1>Conhecimentos</h1>
+            <div id="first" class="sessao-header">
+                <h1></h1>
             </div>
             <div class="conhecimentos"><!--CONTAINER-->
                 <div class="conhecimento"> <!---->
                     <div class="conhecimento-header"> <!--CONTAINER-->
                         <i class="fab fa-html5"></i>
-                        <h3>HTML</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Labore dolorum possimus non itaque dolorem voluptate dolor, necessitatibus 
-                            delectus voluptates nesciunt!
-                        </p>
+                       <!--<h3>HTML</h3>-->
                     </div>
                 </div>
                 <div class="conhecimento"> 
                     <div class="conhecimento-header">
                         <i class="fab fa-css3-alt"></i>
-                        <h3>CSS</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Cumque a aspernatur eligendi quisquam recusandae ipsa 
-                            hic harum asperiores aliquam eum.</p>
+                      <!-- <h3>CSS</h3>-->
                     </div>
                 </div>
                 <div class="conhecimento">
                     <div class="conhecimento-header">
                         <i class="fas fa-pencil-alt"></i>
-                        <h3>Desing</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ducimus, voluptatum assumenda sequi asperiores debitis 
-                        ullam vitae quis itaque nemo delectus!</p>
+                       <!-- <h3>Desing</h3>-->
                     </div>
                 </div>
                 <div class="conhecimento">
                     <div class="conhecimento-header">
                         <i class="fab fa-js"></i>
-                        <h3>JavaScript</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ducimus, voluptatum assumenda sequi asperiores debitis 
-                        ullam vitae quis itaque nemo delectus!</p>
+                        <!--<h3>JavaScript</h3>-->
                     </div>
                 </div>
                 <div class="conhecimento">
                     <div class="conhecimento-header">
                         <i class="fab fa-bootstrap"></i>
-                        <h3>Bootstrap</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ducimus, voluptatum assumenda sequi asperiores debitis 
-                        ullam vitae quis itaque nemo delectus!</p>
+                       <!-- <h3>Bootstrap</h3>-->
                     </div>
                 </div>
                 <div class="conhecimento">
                     <div class="conhecimento-header">
                         <i class="fab fa-github"></i>
-                        <h3>Git e GitHub</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ducimus, voluptatum assumenda sequi asperiores debitis 
-                        ullam vitae quis itaque nemo delectus!</p>
+                       <!--<h3>Git e GitHub</h3>-->
                     </div>
                 </div>
+
             </div>
         </section>
+
+    <!--.projetos>.card>(card-img-wrapper+.card-info>h2+h3+p+button)*3-->
+        <section class="sessao-projetos">
+            <div id="first" class="sessao-header">
+                <h1>Projetos</h1>
+
+            </div>
+                <div class="projetos">
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="imagens/conhecimentobackground.jpg" alt="Imagem do projeto  Passado">
+                        </div>
+                        <div class="card-info">
+                            <h2>Projetos Anteriores</h2>
+                            <h3>Confira alguns dos meus projetos já finalizados</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, inventore.</p>
+                            <button class="btn">Saiba mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="imagens/conhecimentohtml.jpg" alt="Imagem do projeto Presente">
+                        </div>
+                        <div class="card-info">
+                            <h2>Projetos atuais</h2>
+                            <h3>Confira meus projetos atuais</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, quidem?</p>
+                            <button class="btn">Saiba mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="imagens/conhecimento.png" alt="Imagem do projeto Futuro">
+                        </div>
+                        <div class="card-info">
+                            <h2>Projetos futuros</h2>
+                            <h3>Próximos projetos que pretendo começar</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, recusandae!</p>
+                            <button class="btn">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div id="first" class="contato-right">
+                    <h1>Contato</h1>
+                    <div class="border"></div>
+                    <div class="border"></div>
+                
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+              </div>
+            </div>
+        </section>
+
     </div>
     <footer></footer>
 </body>
+
 <script src="script.js"></script>
 </html>

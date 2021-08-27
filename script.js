@@ -1,3 +1,4 @@
+ +
 document.querySelector('.iconburguer').addEventListener("click",  () => 
     document.querySelector(".container").classList.toggle("show-menu")
 );
@@ -5,10 +6,10 @@ document.querySelector('.iconburguer').addEventListener("click",  () =>
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["inovador", "estranho", "brilhante", "maluco da cabeça"];
-const typingDelay = 200;
-const erasingDelay = 100;
-const newTextDelay = 2000; // Delay between current and next text
+const textArray = ["Em desenvolvimento", "Em desenvolvimento", "Em desenvolvimento", "Em desenvolvimento"];
+const typingDelay = 100;
+const erasingDelay = 50;
+const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
